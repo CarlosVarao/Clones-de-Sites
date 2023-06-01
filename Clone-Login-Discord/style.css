@@ -1,0 +1,293 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* VAREAVEIS */
+
+:root{
+    --backgraund-color: #313338;
+    --font-main: #f2f3f5;
+    --font-secondary: #b5bac1;
+    --font-link: #00a8fc;
+    --button-color: #5865f2;
+    --font-carecter-especial: #f23f42;
+    --backgraund-input: #1e1f22;
+    --button-color-hover: #4856c1;
+}
+
+/* MEDIAS QUERIES */
+
+@media screen and (max-width: 2080px){
+
+    .one-section img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px){
+
+    div.qrcode-text h2{
+        font-size: 21px;
+    }
+
+    div.qrcode-text p{
+        font-size: 0.85em;
+    }
+}
+
+
+@media screen and (max-width: 835px){
+
+    div.box-content{
+        height: 405px;
+        width: 480px;
+    }
+
+
+    section.one-section{
+        width: 100%;      
+    }
+
+    section.two-section{
+        display: none; 
+    }  
+}
+
+@media screen and (max-width: 500px){
+
+    main#box-container{
+        background-image: none;
+        background-color: var(--backgraund-color);
+    }
+    
+    div.box-content{
+        height: 100vh;
+        width: 100vw;
+        margin: 0px;
+        padding: 20px 16px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    section.one-section img{
+        display: block;
+    }
+   
+    section.one-section form{
+        height: 153px;
+        margin: 0px;
+    }
+ 
+}
+
+/*===================================*/
+
+
+/* CONFIG RESET CONTENT */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* CONFIG MAIN AND CONTENTS ONE SECTION */
+
+#box-container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(IMAGENS/backg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.box-content{
+    margin: 0px 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--backgraund-color);
+    padding: 32px;
+    height: 405px;
+    width: 788px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.252);
+}
+
+.one-section{
+    width: 55%;
+}
+
+.one-section .logo-disc{
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-text{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.content-text h1{
+    color: var(--font-main);
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.content-text p{
+    color: var(--font-secondary);
+    font-size: 0.85em;
+}
+
+.one-section form{
+    height: 100%;
+    width: 100%;
+}
+
+form .one-input,.two-input{
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    background-color: var(--backgraund-input);
+    color: var(--font-main);
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+form .one-input{
+    margin-bottom: 20px;
+}
+
+form label{
+    display: flex;
+    gap: 5px;
+}
+
+form label{
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--font-secondary);
+    margin-bottom: 8px;
+}
+
+form label p{
+    font-size: 12px;
+}
+
+
+form label span{
+    color: var(--font-carecter-especial);
+}
+
+.forgot-password{
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.forgot-password a{
+    letter-spacing: -0.5px;
+    font-size: 0.80em;
+    font-weight: 500;
+    color: var(--font-link);
+    padding-top: 5px;
+}
+
+.forgot-password a:hover{
+    text-decoration: underline;
+}
+
+.one-section button{
+    background-color: var(--button-color);
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--font-main);
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.one-section button:hover{
+    background-color: var(--button-color-hover);
+    cursor: pointer;
+}
+
+.register-cont{
+    font-size: 0.80em;
+    font-weight: 300;
+    color: var(--font-secondary);
+    padding-top: 5px;
+}
+
+.register-cont a{
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    color: var(--font-link);
+}
+
+.register-cont a:hover{
+    text-decoration: underline;
+}
+
+/* CONFIG MAIN AND CONTENTS TWO SECTION */
+
+.two-section{
+    height: 100%;
+    width: 35%;
+    padding: 10px 0px;
+}
+
+.box-img{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 67%;
+    width: 100%;
+}
+
+.two-section img{
+    width: 178px;
+}
+
+.qrcode-text{
+    width: 100%;
+    color: var(--font-main);
+}
+
+.qrcode-text h2{
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 8px;
+}
+
+.qrcode-text p{
+    color: var(--font-secondary);
+    font-weight: 400;
+    font-size: 0.90em;
+    text-align: center;
+}
+
+
+
+
+
+

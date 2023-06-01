@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+/* VAREAVEIS */
+
+:root{
+    --cor-fundo:#0D1117;
+    --cor-box-fundo:#161b22;
+    --cor-font:#cbd1d9;
+    --cor-font-link:#58a6ff;
+    --cor-buttom:#238636;
+    --cor-buttom-hover:#26a641;
+    --cor-select-rodape:#8b949e;
+}
+
+/* CONFIG RESET */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    color: var(--cor-font);
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* CONTEUDOS DO SITE */
+
+body{
+    background-color: var(--cor-fundo);
+}
+
+/* CABEÇALHO */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-header{
+    margin: auto;
+    width: 300px;
+    text-align: center;
+
+}
+
+.box-header img{
+    height:48px;
+    width: 49px;
+    margin: 30px 0px 25px 0px;
+}
+
+.box-header h1{
+    margin-bottom: 20px;
+    color: var(--cor-font);
+    font-weight: lighter;
+    font-size: 24px;
+    letter-spacing: -0.3px;
+}
+
+/* CORPO CENTRAL */
+
+main .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-conteudo{
+    height: 225px;
+    width: 350px;
+    padding: 0px 20px;
+}
+
+.box .box-form{
+    background-color: var(--cor-box-fundo);
+    height: 100%;
+    width: 100%;
+    border: 0.5px solid #cbd1d90e;
+    border-radius: 6px;
+}
+
+.box form{
+    width: 100%;
+    padding: 16px;
+    font-size: 14px;
+}
+
+form input{
+    margin-top: 10px;
+    border: 1px solid #cbd1d928;
+    border-radius: 6px;
+    background-color: var(--cor-fundo);
+    height: 29px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+form input:focus-within{
+    outline: 3px solid var(--cor-font-link);
+    transition: 20ms cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+form .box-password{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form .box-password span{
+    font-size: 12px;
+    margin-right: 4px;
+}
+
+form .box-password a{
+    color: var(--cor-font-link);
+
+}
+
+form button{
+    border: 1px solid #cbd1d928;
+    color: black;
+    background-color: var(--cor-buttom);
+    border-radius: 6px;
+    height: 33px;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.616);
+}
+
+form button:hover{
+    cursor: pointer;
+    background-color: var(--cor-buttom-hover);
+    transition: 0.2s;
+}
+
+.box .create-conta{
+    margin-top: 22px;
+    padding: 16px;
+    border: 1px solid #cbd1d936;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.create-conta p{
+    font-size: 14px;
+}
+
+.create-conta a{
+    color: var(--cor-font-link);
+}
+
+.create-conta a:hover{
+    text-decoration: underline;
+}
+
+/* RODAPÉ */
+
+
+ul{
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    font-size: 12px;
+    list-style: none;
+}
+
+ul a{
+    color: var(--cor-font-link);
+}
+
+ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--cor-font-link) ;
+}
+
+ul li:last-child a{
+    color: var(--cor-select-rodape);
+}
+
+ul li:last-child a:hover{
+    color: var(--cor-font-link);
+}

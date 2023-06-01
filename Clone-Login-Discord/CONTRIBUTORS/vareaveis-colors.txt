@@ -1,0 +1,8 @@
+--backgraund-color #313338
+--font-main #f2f3f5
+--font-secondary: #b5bac1;
+--font-carecter-especial: #f23f42;
+--backgraund-input: #1e1f22;
+--font-link #00a8fc
+--button-color #5865f2
+--button-color-hover: #4856c1;
