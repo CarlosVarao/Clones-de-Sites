@@ -1,4 +1,5 @@
 # Prints dos sites :
 
-![image](https://github.com/CarlosVarao/Clones-de-Sites/assets/127850509/3a9d1560-f548-4108-8eb1-5e23a8ab0fa1)
+![image](https://github.com/CarlosVarao/Clones-de-Sites/assets/127850509/22cd8d6f-4d64-4a82-b30c-a054841f2529)
+
 
