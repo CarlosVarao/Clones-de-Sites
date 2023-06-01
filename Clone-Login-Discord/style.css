@@ -196,12 +196,12 @@ form label span{
     color: var(--font-carecter-especial);
 }
 
-.forgot-password{
+form .forgot-password{
     font-weight: 300;
     margin-bottom: 20px;
 }
 
-.forgot-password a{
+form .forgot-password a{
     letter-spacing: -0.5px;
     font-size: 0.80em;
     font-weight: 500;
@@ -209,11 +209,11 @@ form label span{
     padding-top: 5px;
 }
 
-.forgot-password a:hover{
+form .forgot-password a:hover{
     text-decoration: underline;
 }
 
-.one-section button{
+.one-section form button{
     background-color: var(--button-color);
     height: 40px;
     width: 100%;
@@ -226,25 +226,25 @@ form label span{
     outline: none;
 }
 
-.one-section button:hover{
+.one-section  form button:hover{
     background-color: var(--button-color-hover);
     cursor: pointer;
 }
 
-.register-cont{
+form .register-cont{
     font-size: 0.80em;
     font-weight: 300;
     color: var(--font-secondary);
     padding-top: 5px;
 }
 
-.register-cont a{
+form .register-cont a{
     letter-spacing: -0.5px;
     font-weight: 400;
     color: var(--font-link);
 }
 
-.register-cont a:hover{
+form .register-cont a:hover{
     text-decoration: underline;
 }
 

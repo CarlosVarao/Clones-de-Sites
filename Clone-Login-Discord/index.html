@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="shortcut icon" href="IMAGENS/flavico-disc.png" type="image/x-icon">
     <title>Discord</title>
 </head>
+
 <body>
     <main id="box-container">
         <!--BOX DO CONTEUDO -->
@@ -21,23 +23,27 @@
                     <h1>Boas-vindas de volta!</h1>
                     <p>Estamos muito animados em te ver novamente!</p>
                 </div>
-                <form action="button-action" autocomplete="on">
+                <form action="#" autocomplete="on">
                     <div class="one-input">
-                        <label for="iemail"><p>e-mail ou número de telefone</p><span> *</span></label>
-                        <input type="text" name="iemail" id="iemail" required autocomplete="email">
+                        <label for="iemail">
+                            <p>e-mail ou número de telefone</p><span> *</span>
+                        </label>
+                        <input type="email" name="iemail" id="iemail" required autocomplete="email">
                     </div>
                     <div class="two-input">
-                        <label for="ipassword"><p>senha</p><span>*</span></label>
+                        <label for="ipassword">
+                            <p>senha</p><span>*</span>
+                        </label>
                         <input type="password" name="ipassword" id="ipassword" required autocomplete="email">
                     </div>
+                    <div class="forgot-password">
+                        <a href="#">Esqueceu a sua senha?</a>
+                    </div>
+                    <button type="submit" name="button-action" id="button-action">Entrar</button>
+                    <div class="register-cont">
+                        <p>Precisando de uma conta?<span><a href="#"> Registre-se</a></span></p>
+                    </div>
                 </form>
-                <div class="forgot-password">
-                    <a href="#">Esqueceu a sua senha?</a>
-                </div>
-                <button type="submit" name="button-action" id="button-action">Entrar</button>
-                <div class="register-cont">
-                    <p>Precisando de uma conta?<span><a href="#"> Registre-se</a></span></p>
-                </div>
             </section>
             <!-- SECTION DO LADO ESQUERDO -->
             <section class="two-section">
@@ -50,6 +56,7 @@
                 </div>
             </section>
         </div>
-    </main>   
+    </main>
 </body>
+
 </html>
