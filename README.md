@@ -17,7 +17,7 @@
     </a>
   </div><br>
   
-  ![git](https://github.com/CarlosVarao/Clones-de-Sites/assets/127850509/a661cfe8-ffaf-4579-8d8c-5da762cf8986)
+ ![git](https://github.com/CarlosVarao/Clones-de-Sites/assets/127850509/a661cfe8-ffaf-4579-8d8c-5da762cf8986)
 </div>
 
 
