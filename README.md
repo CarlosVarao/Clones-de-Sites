@@ -7,7 +7,7 @@
     </a>
   </div><br>
   
-  ![disco](https://github.com/CarlosVarao/Clones-de-Sites/assets/127850509/ae1b65bf-cdd5-45dc-8966-9685f29b792c) 
+ ![disco](https://github.com/CarlosVarao/Clones-de-Sites/assets/127850509/ae1b65bf-cdd5-45dc-8966-9685f29b792c) 
 </div>
 
 - <div>
