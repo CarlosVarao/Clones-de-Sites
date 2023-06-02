@@ -27,7 +27,7 @@
   </div>
   
   <div align="center" style="display: inline_block"><br>
-    <img align="center" alt="clone-git" src="/Assets/git.png">
+    <img align="center" alt="clone-discord" src="Assets/git.png">
   </div>
   
 </div>
