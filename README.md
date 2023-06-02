@@ -9,9 +9,7 @@
     </div>
 
     <div align="center" style="display: inline_block"><br>
-
-     ![disco](https://github.com/CarlosVarao/Clones-de-Sites/assets/127850509/ae1b65bf-cdd5-45dc-8966-9685f29b792c) 
-
+      <img align="center" alt="clone-discord" src="https://github.com/CarlosVarao/Clones-de-Sites/blob/main/Assets/disco.png">
     </div>
 </div>
 
@@ -25,11 +23,9 @@
       <a href="https://carlosvarao.github.io/Clones-de-Sites/Clone-Login-GitHub/index.html" target="_blank"><span>CLICK - HERE</span></a>
     </div>
   
-    <div align="center" style="display: inline_block"><br>
-
-     ![git](https://github.com/CarlosVarao/Clones-de-Sites/assets/127850509/a661cfe8-ffaf-4579-8d8c-5da762cf8986)
-
-    </div>
+     <div align="center" style="display: inline_block"><br>
+          <img align="center" alt="clone-discord" src="https://github.com/CarlosVarao/Clones-de-Sites/blob/main/Assets/git.png">
+     </div>
 </div>
 
 ##
