@@ -3,7 +3,7 @@
 
 /* VAREAVEIS */
 
-:root{
+:root {
     --backgraund-color: #313338;
     --font-main: #f2f3f5;
     --font-secondary: #b5bac1;
@@ -16,50 +16,50 @@
 
 /* MEDIAS QUERIES */
 
-@media screen and (max-width: 2080px){
+@media screen and (max-width: 2080px) {
 
-    .one-section img{
+    .one-section img {
         display: none;
     }
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
 
-    div.qrcode-text h2{
+    div.qrcode-text h2 {
         font-size: 21px;
     }
 
-    div.qrcode-text p{
+    div.qrcode-text p {
         font-size: 0.85em;
     }
 }
 
 
-@media screen and (max-width: 835px){
+@media screen and (max-width: 835px) {
 
-    div.box-content{
+    div.box-content {
         height: 405px;
         width: 480px;
     }
 
 
-    section.one-section{
-        width: 100%;      
+    section.one-section {
+        width: 100%;
     }
 
-    section.two-section{
-        display: none; 
-    }  
+    section.two-section {
+        display: none;
+    }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
 
-    main#box-container{
+    main#box-container {
         background-image: none;
         background-color: var(--backgraund-color);
     }
-    
-    div.box-content{
+
+    div.box-content {
         height: 100vh;
         width: 100vw;
         margin: 0px;
@@ -69,15 +69,15 @@
         flex-direction: column;
     }
 
-    section.one-section img{
+    section.one-section img {
         display: block;
     }
-   
-    section.one-section form{
+
+    section.one-section form {
         height: 153px;
         margin: 0px;
     }
- 
+
 }
 
 /*===================================*/
@@ -85,7 +85,7 @@
 
 /* CONFIG RESET CONTENT */
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -95,7 +95,7 @@
 
 /* CONFIG MAIN AND CONTENTS ONE SECTION */
 
-#box-container{
+#box-container {
     height: 100vh;
     width: 100vw;
     background-image: url(IMAGENS/backg.png);
@@ -107,7 +107,7 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
-.box-content{
+.box-content {
     margin: 0px 50px;
     border-radius: 5px;
     display: flex;
@@ -120,45 +120,45 @@
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.252);
 }
 
-.one-section{
+.one-section {
     width: 55%;
 }
 
-.one-section .logo-disc{
+.one-section .logo-disc {
     margin-bottom: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.content-text{
+.content-text {
     padding-bottom: 20px;
     text-align: center;
 }
 
-.content-text h1{
+.content-text h1 {
     color: var(--font-main);
     font-size: 1.3em;
     font-weight: bold;
     margin-bottom: 8px;
 }
 
-.content-text p{
+.content-text p {
     color: var(--font-secondary);
     font-size: 0.85em;
 }
 
-.one-section form{
+.one-section form {
     height: 100%;
     width: 100%;
 }
 
-form .one-input,.two-input{
+form .one-input, .two-input {
     display: flex;
     flex-direction: column;
 }
 
-form input{
+form input {
     background-color: var(--backgraund-input);
     color: var(--font-main);
     height: 40px;
@@ -169,16 +169,16 @@ form input{
     outline: none;
 }
 
-form .one-input{
+form .one-input {
     margin-bottom: 20px;
 }
 
-form label{
+form label {
     display: flex;
     gap: 5px;
 }
 
-form label{
+form label {
     letter-spacing: -0.5px;
     text-transform: uppercase;
     font-size: 10px;
@@ -187,21 +187,21 @@ form label{
     margin-bottom: 8px;
 }
 
-form label p{
+form label p {
     font-size: 12px;
 }
 
 
-form label span{
+form label span {
     color: var(--font-carecter-especial);
 }
 
-form .forgot-password{
+form .forgot-password {
     font-weight: 300;
     margin-bottom: 20px;
 }
 
-form .forgot-password a{
+form .forgot-password a {
     letter-spacing: -0.5px;
     font-size: 0.80em;
     font-weight: 500;
@@ -209,11 +209,11 @@ form .forgot-password a{
     padding-top: 5px;
 }
 
-form .forgot-password a:hover{
+form .forgot-password a:hover {
     text-decoration: underline;
 }
 
-.one-section form button{
+.one-section form button {
     background-color: var(--button-color);
     height: 40px;
     width: 100%;
@@ -226,37 +226,37 @@ form .forgot-password a:hover{
     outline: none;
 }
 
-.one-section  form button:hover{
+.one-section form button:hover {
     background-color: var(--button-color-hover);
     cursor: pointer;
 }
 
-form .register-cont{
+form .register-cont {
     font-size: 0.80em;
     font-weight: 300;
     color: var(--font-secondary);
     padding-top: 5px;
 }
 
-form .register-cont a{
+form .register-cont a {
     letter-spacing: -0.5px;
     font-weight: 400;
     color: var(--font-link);
 }
 
-form .register-cont a:hover{
+form .register-cont a:hover {
     text-decoration: underline;
 }
 
 /* CONFIG MAIN AND CONTENTS TWO SECTION */
 
-.two-section{
+.two-section {
     height: 100%;
     width: 35%;
     padding: 10px 0px;
 }
 
-.box-img{
+.box-img {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -264,30 +264,24 @@ form .register-cont a:hover{
     width: 100%;
 }
 
-.two-section img{
+.two-section img {
     width: 178px;
 }
 
-.qrcode-text{
+.qrcode-text {
     width: 100%;
     color: var(--font-main);
 }
 
-.qrcode-text h2{
+.qrcode-text h2 {
     text-align: center;
     font-size: 23px;
     margin-bottom: 8px;
 }
 
-.qrcode-text p{
+.qrcode-text p {
     color: var(--font-secondary);
     font-weight: 400;
     font-size: 0.90em;
     text-align: center;
 }
-
-
-
-
-
-
